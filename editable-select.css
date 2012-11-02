@@ -1,0 +1,44 @@
+div#div_for_shopping_centre {
+  min-height: 40px;
+}
+
+.editable-input {
+  background: #FFF url(arrow-down.gif) right center no-repeat;
+  padding-right: 13px;
+}
+
+.form div div.holder {
+  position: absolute;
+  clear: none;
+  top: 72%;
+  left: 29.4%;
+  z-index: 10;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}
+
+.holder ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  height: 220px;
+  border: 1px solid #CCC;
+  background: #FFF;
+  width: 255px;
+}
+.holder li {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  cursor: default;
+  padding: 2px;
+}
+
+.holder li.ininvisible {
+  display: none;
+}
+
+.holder li.selected, .holder li:hover {
+  background: #EAEAEA;
+}
